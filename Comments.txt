@@ -1,0 +1,29 @@
+1. Look at the imports, first of all
+	a. express: cos duh, we just need it, it makes life easier
+	b. bodyParser:to understand what the front end, is sending to us, we need to parse into our needs, here JSON was the need
+	c. bcrypt: this is a library, that helps in hashing strings, and also comparing the hashes and other strings for match, very secure
+	d. cors: i actually forgot, what this did??
+	e. knex: the magic library, for making life simple when it comes to connecting to the database etc
+
+2. Just a heads up, when every you want to talk about an object, enclose it with {}
+
+3. set up server:
+	1. mkdir project_folder
+	2. cd project_folder
+	3. npm init -y 
+		you should see the package.json file being created in this step
+	4. npm install (dependency-name) --save 
+		you should see the dependencies updating your package.json file once they are installed
+	5. start working
+
+4. set up postgres db;
+	1. sudo -i -u postgres
+		you should be in root now
+	2. psql
+		you should ne within postgres sql now
+	options:
+		a. /l 
+			displays all databases avaliable
+		b. /c database_name 
+			connects to the database
+			
